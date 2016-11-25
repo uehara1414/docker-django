@@ -7,7 +7,7 @@ Paths start with /backend/ is redirected to the root path of Django app and the 
 ## Setup
 Create .env file
 ```
-SECRET_KEY=secret-key
+SECRET_KEY="secretkey"
 VIRTUAL_HOST=foobar.net
 DB_NAME=postgres
 DB_USER=postgres
