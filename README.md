@@ -2,7 +2,7 @@
 Docker template for static frontend and Django backend.
 
 ## Structure
-Paths start with /backend/ is redirected to the root path of Django app and the others serve static files in /frontend directory.
+Paths start with /api/ are redirected to the path of Django app and the others serve static files in /frontend directory.
 
 ## Setup
 Create .env file
@@ -23,4 +23,4 @@ Run docker-compose up
 docker-compose up -d
 ```
 
-Then you can access frontend files from [http://localhost](http://localhost) and Django backend from [http://localhost/backend/](http://localhost/backend/)
+Then you can access frontend files from [http://localhost](http://localhost) and Django backend from [http://localhost/api/](http://localhost/api/)
